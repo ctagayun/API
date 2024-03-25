@@ -8,7 +8,10 @@ public class HouseEntity
     //the database that will hold the houses entity 
     //will have a column Id. And because it is called
     //ID, it will be the primary key assigned by the 
-    //database
+    //database.
+
+    //Entities such as HouseEntity are used in a class
+    //called DBCOntext
     public int Id {get; set;}
     public string? Address {get;set;}
     public string? Country {get; set;}
