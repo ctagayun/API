@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();  //this enable swagger to scan for all endpoints
                          //Swagger middleware writes documentation
-                        
+
+//Now let register the DbContext in the DI container. I am turning off 
+//tracking because it is more efficient and performant because we are 
+//the context is recreated everytime anyway.
+builder.Services.AddDbContext<HouseDbContext>(o => 
+  o.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));       
+
+builder.Services.AddScoped<IHouseRepository, HouseRepository>();
+//builder.Services.AddScoped<IBidRepository, BidRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,37 +32,29 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
 //The map get extension method on the web application object enables
 //us to define an endpoit that responds to a get request directly.
 //No need for controllers with the routing table
 // weatherforecast" - is the relative URL of the end point
 // and the second part (arrow function) is Lambda that executes 
-//when the endpoint is hit
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast") //this property makes it possible 
-                                //to refer to this route by name
-.WithOpenApi();  //the call to WithOpenAPI is not strictly necessary   
-                 //because the swagger endpoint explorer will automatically 
-                 //add this endpoint to swagger documentation       
+//when the endpoint is hit.
+
+//Since HouseDbContext was registered in the DI, the container
+//will automaticall provide an instance of HouseDbContext for me. 
+
+//All there is left to do is to return all house entities, 
+//by simply accessing the house's property "dbContext.Houses" of the 
+//context which is a collection of house entities. these entities
+//will be auto serialized to JSON.
+//app.MapGet("/houses", (HouseDbContext dbContext) =>
+//  dbContext.Houses.Select(h => new HouseDto(h.Id, h.Address, //Convert house entity in to a record format for React to consume
+//                          h.Country, h.Price)));
+
+app.MapGet("/houses", (IHouseRepository repo) => repo.GetAll());
+
 
 app.Run();  //Finally the app is commanded to run and then we will 
-            //an active endpoint.
+            //an active endpoint.    
             //However before we run, open launchSettings.JSON and 
             //delete IAS settings and IAS EXPRESS profile
             //as well as the "//localhost:5151" in "applicationUrl"
@@ -60,8 +62,3 @@ app.Run();  //Finally the app is commanded to run and then we will
 
             //So our API will run in port 4000 and frontend on 3000
 
-//This is the record type of WeatherForecast
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
