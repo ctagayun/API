@@ -54,7 +54,22 @@ app.UseHttpsRedirection();
 //  dbContext.Houses.Select(h => new HouseDto(h.Id, h.Address, //Convert house entity in to a record format for React to consume
 //                          h.Country, h.Price)));
 
-app.MapGet("/houses", (IHouseRepository repo) => repo.GetAll());
+app.MapGet("/houses", (IHouseRepository repo) => repo.GetAll())
+    .Produces<HouseDto[]>(StatusCodes.Status200OK);
+    
+app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repo) => 
+  {
+    //now we can just get the house DTO by calling a new method in the repo
+    var house = await repo.Get(houseId);
+    if (house == null)
+      //Results is a factory (similar to MVC) it produces a response with a 
+      //certain HTTP status code
+      return Results.Problem($"House with id {houseId} not found.",
+       statusCode: 404);
+
+      //If there is a house 
+      return Results.Ok(house);
+  } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK); //This lets Swagger know that this method could produce a 404
 
 
 app.Run();  //Finally the app is commanded to run and then we will 

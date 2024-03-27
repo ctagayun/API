@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F7KNP6/jTI1TO8yZKtoT3U+y2XzGWcQ++ah8d7UNesEpaeMBwxLALElHMLVzNIvEgr+4rP6H1PBzNzTNOFUOoQ==",
+  "dgSpecHash": "9VWN0jE0avy4ntJCJJRm3PhtV8B6l6jjDhna+lhDO/ZsNmSR1l+ySkXKcpHqBhEAdpV3uRluG3o6QDL3qTj7YQ==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-4-react-build-e2e-spa-caching-and-refetching-with-react-query\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-5-react-build-e2e-spa-adding-frontend-navigation\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",

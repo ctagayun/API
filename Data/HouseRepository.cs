@@ -37,12 +37,22 @@ public class HouseRepository : IHouseRepository
         return await context.Houses.Select(e => new HouseDto(e.Id, e.Address, e.Country, e.Price)).ToListAsync();
     }
 
+    //Method that gets house detail
     public async Task<HouseDetailDto?> Get(int id)
     {
+        //fetch the house entity with the given id using the 
+        //extension method SingleOrDefaultAsync
         var entity = await context.Houses.SingleOrDefaultAsync(h => h.Id == id);
-        if (entity == null)
+        if (entity == null) //not found
             return null;
-        return EntityToDetailDto(entity);
+        //we need all these properties for the detail page    
+        return new HouseDetailDto(entity.Id, entity.Address,
+                entity.Country, entity.Price, 
+                entity.Description, entity.Photo);
+
+        //now add an endpoint in program.cs
+
+        //return EntityToDetailDto(entity);
     }
 
     public async Task<HouseDetailDto> Add(HouseDetailDto dto)
