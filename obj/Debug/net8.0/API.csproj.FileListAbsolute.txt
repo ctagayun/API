@@ -418,3 +418,5 @@ C:\_AMyReactDev\chito-5-react-build-e2e-spa-adding-frontend-navigation\API\obj\D
 C:\_AMyReactDev\chito-5-react-build-e2e-spa-adding-frontend-navigation\API\obj\Debug\net8.0\API.pdb
 C:\_AMyReactDev\chito-5-react-build-e2e-spa-adding-frontend-navigation\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\_AMyReactDev\chito-5-react-build-e2e-spa-adding-frontend-navigation\API\obj\Debug\net8.0\ref\API.dll
+C:\_AMyReactDev\chito-5-react-build-e2e-spa-adding-frontend-navigation\API\bin\Debug\net8.0\package-lock.json
+C:\_AMyReactDev\chito-5-react-build-e2e-spa-adding-frontend-navigation\API\bin\Debug\net8.0\package.json

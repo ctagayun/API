@@ -47,8 +47,8 @@ public class HouseRepository : IHouseRepository
             return null;
         //we need all these properties for the detail page    
         return new HouseDetailDto(entity.Id, entity.Address,
-                entity.Country, entity.Price, 
-                entity.Description, entity.Photo);
+                entity.Country, entity.Description, entity.Price, 
+                 entity.Photo);
 
         //now add an endpoint in program.cs
 
