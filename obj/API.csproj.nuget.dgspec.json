@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_AMyReactDev\\chito-3-react-build-e2e-spa-creating-db-adding-api-endpoints\\API\\API.csproj": {}
+    "C:\\_AMyReactDev\\chito-4-react-build-e2e-spa-caching-and-refetching-with-react-query\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\_AMyReactDev\\chito-3-react-build-e2e-spa-creating-db-adding-api-endpoints\\API\\API.csproj": {
+    "C:\\_AMyReactDev\\chito-4-react-build-e2e-spa-caching-and-refetching-with-react-query\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_AMyReactDev\\chito-3-react-build-e2e-spa-creating-db-adding-api-endpoints\\API\\API.csproj",
+        "projectUniqueName": "C:\\_AMyReactDev\\chito-4-react-build-e2e-spa-caching-and-refetching-with-react-query\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\_AMyReactDev\\chito-3-react-build-e2e-spa-creating-db-adding-api-endpoints\\API\\API.csproj",
+        "projectPath": "C:\\_AMyReactDev\\chito-4-react-build-e2e-spa-caching-and-refetching-with-react-query\\API\\API.csproj",
         "packagesPath": "C:\\Users\\tiger\\.nuget\\packages\\",
-        "outputPath": "C:\\_AMyReactDev\\chito-3-react-build-e2e-spa-creating-db-adding-api-endpoints\\API\\obj\\",
+        "outputPath": "C:\\_AMyReactDev\\chito-4-react-build-e2e-spa-caching-and-refetching-with-react-query\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

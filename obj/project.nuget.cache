@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "odp0q6FD8h7rw7MtN6SrYMAOAu83I5y/2PuLpmoQxxeJ2J87FJTUbGaBW/jZ1wRoyIy/7azufu5BI5VgzjKWnA==",
+  "dgSpecHash": "F7KNP6/jTI1TO8yZKtoT3U+y2XzGWcQ++ah8d7UNesEpaeMBwxLALElHMLVzNIvEgr+4rP6H1PBzNzTNOFUOoQ==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-3-react-build-e2e-spa-creating-db-adding-api-endpoints\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-4-react-build-e2e-spa-caching-and-refetching-with-react-query\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
