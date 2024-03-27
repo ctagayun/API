@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();  //this enable swagger to scan for all endpoints
                          //Swagger middleware writes documentation
+builder.Services.AddCors();
 
 //Now let register the DbContext in the DI container. I am turning off 
 //tracking because it is more efficient and performant because we are 
@@ -29,6 +30,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();  //this creates standard definition of our API in JSON format
     app.UseSwaggerUI(); //this transforms JSON into a UI
 }
+
+//Allow api port 4000 to call port 3000 where the react app is running
+app.UseCors(p => p.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod().AllowCredentials());
 
 app.UseHttpsRedirection();
 
