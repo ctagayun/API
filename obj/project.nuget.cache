@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9VWN0jE0avy4ntJCJJRm3PhtV8B6l6jjDhna+lhDO/ZsNmSR1l+ySkXKcpHqBhEAdpV3uRluG3o6QDL3qTj7YQ==",
+  "dgSpecHash": "+tOX7JGILRJZB8OIlbwX4v7YH2jm17VBw6s+eR7nRsnOB5psHXSLZyZWNkgwaYrsJwQCltvhPk4Xl/+cuHrd0A==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-5-react-build-e2e-spa-adding-frontend-navigation\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-6-react-build-e2e-spa-CRUD-data\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",

@@ -71,6 +71,64 @@ app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repo) =>
       return Results.Ok(house);
   } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK); //This lets Swagger know that this method could produce a 404
 
+//CRUD
+//In the lambda there are two parameters:
+//      1. the HouseDetailDto object as parameter is expected.
+//      2. the second parameter is IHouseRpository
+//
+//Here we are letting the API know that it has to look for the Dto in
+//the body of the request
+app.MapPost("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
+  {
+    //the repo has to instructed to add the house to the database
+    //now we can just add by calling the "ADD" method of the repo.
+    var newHouse = await repo.Add(dto);
+
+    //We can use Result again to return success or failure of the Post
+    //Results is a factory (similar to MVC) it produces a response with a 
+    //certain HTTP status code
+    //In a POST by convention we return the endpoint/URL where the info about
+    // new house can be foundand the new record id assigned by the database
+    return Results.Created($"/house/{newHouse.Id}", newHouse);
+        //If there is a house 
+    } ).Produces<HouseDetailDto>(StatusCodes.Status201Created); //This lets Swagger know that this method could produce a 201
+
+app.MapPut("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
+  {
+    //the repo has to instructed to add the house to the database
+    //now we can just add by calling the "ADD" method of the repo.
+
+    //First we need to make sure that the house being updated in the request
+    //body actually exists
+
+    if (await repo.Get(dto.Id) == null)
+      return Results.Problem($"House {dto.Id} not found", statusCode: 404);
+
+    var updatedHouse = await repo.Update(dto);
+
+    //We can use Result again to return success or failure of the Post
+    //Results is a factory (similar to MVC) it produces a response with a 
+    //certain HTTP status code
+    return Results.Ok(updatedHouse);
+  } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK); //This lets Swagger know that this method could produce a 200
+
+app.MapDelete("/houses/{houseId: int}", async (int houseId, IHouseRepository repo) => 
+  {
+    //the repo has to instructed to delee the house to the database
+    //now we can just add by calling the "Delete" method of the repo.
+
+    //First we need to make sure that the house being deleted in the request
+    //body actually exists
+    if (await repo.Get(houseId) == null)
+      return Results.Problem($"House {houseId} not found", statusCode: 404);
+
+    await repo.Delete(houseId);
+
+    //Since there is no data to return just return OK
+    return Results.Ok();
+    
+  } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK); //This lets Swagger know that this method could produce a 404
+
 
 app.Run();  //Finally the app is commanded to run and then we will 
             //an active endpoint.    
