@@ -112,11 +112,11 @@ app.MapPut("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo
     return Results.Ok(updatedHouse);
   } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK); //This lets Swagger know that this method could produce a 200
 
-app.MapDelete("/houses/{houseId: int}", async (int houseId, IHouseRepository repo) => 
-  {
-    //the repo has to instructed to delee the house to the database
-    //now we can just add by calling the "Delete" method of the repo.
 
+app.MapDelete("/houses/{houseId:int}", async (int houseId, IHouseRepository repo) => 
+  {
+    //the repo has to instructed to delete the house to the database
+    //now we can just add by calling the "Delete" method of the repo.
     //First we need to make sure that the house being deleted in the request
     //body actually exists
     if (await repo.Get(houseId) == null)
@@ -126,7 +126,7 @@ app.MapDelete("/houses/{houseId: int}", async (int houseId, IHouseRepository rep
 
     //Since there is no data to return just return OK
     return Results.Ok();
-    
+
   } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK); //This lets Swagger know that this method could produce a 404
 
 

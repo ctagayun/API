@@ -52,13 +52,13 @@ public class HouseRepository : IHouseRepository
             return null;
 
         //we need all these properties for the detail page    
-        // return new HouseDetailDto(entity.Id, entity.Address,
-        //         entity.Country, entity.Description, entity.Price, 
-        //          entity.Photo);
+         return new HouseDetailDto(entity.Id, entity.Address,
+                entity.Country, entity.Description, entity.Price, 
+                  entity.Photo);
 
         //Populate the corresponding HouseDetailDto properties 
         //from the house entity and then return
-        return EntityToDetailDto(entity);
+        //return EntityToDetailDto(entity);
     }
 
     public async Task<HouseDetailDto> Add(HouseDetailDto dto)
