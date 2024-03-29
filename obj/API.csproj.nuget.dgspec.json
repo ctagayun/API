@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_AMyReactDev\\chito-6-react-build-e2e-spa-CRUD-data\\API\\API.csproj": {}
+    "C:\\_AMyReactDev\\chito-7-react-build-e2e-spa-react-useMutation-and-cache\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\_AMyReactDev\\chito-6-react-build-e2e-spa-CRUD-data\\API\\API.csproj": {
+    "C:\\_AMyReactDev\\chito-7-react-build-e2e-spa-react-useMutation-and-cache\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_AMyReactDev\\chito-6-react-build-e2e-spa-CRUD-data\\API\\API.csproj",
+        "projectUniqueName": "C:\\_AMyReactDev\\chito-7-react-build-e2e-spa-react-useMutation-and-cache\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\_AMyReactDev\\chito-6-react-build-e2e-spa-CRUD-data\\API\\API.csproj",
+        "projectPath": "C:\\_AMyReactDev\\chito-7-react-build-e2e-spa-react-useMutation-and-cache\\API\\API.csproj",
         "packagesPath": "C:\\Users\\tiger\\.nuget\\packages\\",
-        "outputPath": "C:\\_AMyReactDev\\chito-6-react-build-e2e-spa-CRUD-data\\API\\obj\\",
+        "outputPath": "C:\\_AMyReactDev\\chito-7-react-build-e2e-spa-react-useMutation-and-cache\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

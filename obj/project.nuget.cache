@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+tOX7JGILRJZB8OIlbwX4v7YH2jm17VBw6s+eR7nRsnOB5psHXSLZyZWNkgwaYrsJwQCltvhPk4Xl/+cuHrd0A==",
+  "dgSpecHash": "DkDWQeU2Urj2N1DxTE+EgRD9pZFdGw0qLigRhnoMJyQirP9g1/E/Xzua+rgSXQWAjZ9UoGjeEQ2gpm+ugcN1OQ==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-6-react-build-e2e-spa-CRUD-data\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-7-react-build-e2e-spa-react-useMutation-and-cache\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
