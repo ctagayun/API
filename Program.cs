@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MiniValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -80,6 +81,9 @@ app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repo) =>
 //the body of the request
 app.MapPost("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
   {
+    if(!MiniValidator.TryValidate(dto, out var errors)) //vald
+      return Results.ValidationProblem(errors);
+
     //the repo has to instructed to add the house to the database
     //now we can just add by calling the "ADD" method of the repo.
     var newHouse = await repo.Add(dto);
@@ -91,10 +95,13 @@ app.MapPost("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository rep
     // new house can be foundand the new record id assigned by the database
     return Results.Created($"/house/{newHouse.Id}", newHouse);
         //If there is a house 
-    } ).Produces<HouseDetailDto>(StatusCodes.Status201Created); //This lets Swagger know that this method could produce a 201
+    } ).Produces<HouseDetailDto>(StatusCodes.Status201Created) //This lets Swagger know that this method could produce a 201
+       .ProducesValidationProblem(); //vald
 
 app.MapPut("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
   {
+    if(!MiniValidator.TryValidate(dto, out var errors)) //vald
+        return Results.ValidationProblem(errors);
     //the repo has to instructed to add the house to the database
     //now we can just add by calling the "ADD" method of the repo.
 
@@ -110,8 +117,8 @@ app.MapPut("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo
     //Results is a factory (similar to MVC) it produces a response with a 
     //certain HTTP status code
     return Results.Ok(updatedHouse);
-  } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK); //This lets Swagger know that this method could produce a 200
-
+  } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK) //This lets Swagger know that this method could produce a 200
+      .ProducesValidationProblem(); //vald
 
 app.MapDelete("/houses/{houseId:int}", async (int houseId, IHouseRepository repo) => 
   {

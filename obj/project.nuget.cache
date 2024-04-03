@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuvotVM8AeugedjfWGKRBTC5vQ1xNWPNQdyfTlKIEphu+Ys2Dirx24/yipaj7aM4nir5aX/LMNUo1KwBPXGu9w==",
+  "dgSpecHash": "siWGaDR7Ywe0qCt0FQLAEgCBjSCBy09/WIS+BVP4S1+YputUgRbe9AzSHnli3Z9UXNBOzEmbfNgiVSqyqJZKJQ==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-9-react-build-e2e-spa-react-react-reusing-forms\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-10-react-build-e2e-spa-react-api-validation\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\tiger\\.nuget\\packages\\minivalidation\\0.9.0\\minivalidation.0.9.0.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
