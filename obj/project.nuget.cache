@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pbXjoyUS7b7WKX3Kjj6SVmcXkFMLFkgPWsOGxIkf4BA8NZkB37m/3pS8B+68awZWHfbAeAetjCEGbH6Fiwepyw==",
+  "dgSpecHash": "jp5YxSY/Mc8ow5D6UsfusyEUllnmc30vRkxhfILrPg8D55/Tjopq0ZIczGiyKWjTVtLgxyXhqko81AlEjSXQkw==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-12-react-build-e2e-spa-react-working-related-data-bids\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-13-react-build-e2e-spa-react-working-adding-data-bids-hooks\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
