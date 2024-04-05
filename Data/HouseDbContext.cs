@@ -6,7 +6,7 @@ public class HouseDbContext : DbContext
 
     //The DbSet collection represents the table in the database
     public DbSet<HouseEntity> Houses => Set<HouseEntity>();
-    //public DbSet<BidEntity> Bids => Set<BidEntity>(); //bidder stuff
+    public DbSet<BidEntity> Bids => Set<BidEntity>(); //bidder stuff
 
     //Now we have to configure which database to use.
     //Create an override 
