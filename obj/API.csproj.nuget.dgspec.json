@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_AMyReactDev\\chito-11-react-build-e2e-spa-react-uploading-images\\API\\API.csproj": {}
+    "C:\\_AMyReactDev\\chito-12-react-build-e2e-spa-react-working-related-data-bids\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\_AMyReactDev\\chito-11-react-build-e2e-spa-react-uploading-images\\API\\API.csproj": {
+    "C:\\_AMyReactDev\\chito-12-react-build-e2e-spa-react-working-related-data-bids\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_AMyReactDev\\chito-11-react-build-e2e-spa-react-uploading-images\\API\\API.csproj",
+        "projectUniqueName": "C:\\_AMyReactDev\\chito-12-react-build-e2e-spa-react-working-related-data-bids\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\_AMyReactDev\\chito-11-react-build-e2e-spa-react-uploading-images\\API\\API.csproj",
+        "projectPath": "C:\\_AMyReactDev\\chito-12-react-build-e2e-spa-react-working-related-data-bids\\API\\API.csproj",
         "packagesPath": "C:\\Users\\tiger\\.nuget\\packages\\",
-        "outputPath": "C:\\_AMyReactDev\\chito-11-react-build-e2e-spa-react-uploading-images\\API\\obj\\",
+        "outputPath": "C:\\_AMyReactDev\\chito-12-react-build-e2e-spa-react-working-related-data-bids\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

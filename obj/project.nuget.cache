@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tsoy3rIjJ4UdGLhY2S8BCmOtSgI4tjQs/8qWA/SYf0nPQlYjIrg0leHn8f6Jx085LqjFYEDIabN2coV2phKVZA==",
+  "dgSpecHash": "pbXjoyUS7b7WKX3Kjj6SVmcXkFMLFkgPWsOGxIkf4BA8NZkB37m/3pS8B+68awZWHfbAeAetjCEGbH6Fiwepyw==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-11-react-build-e2e-spa-react-uploading-images\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-12-react-build-e2e-spa-react-working-related-data-bids\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",

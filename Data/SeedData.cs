@@ -49,6 +49,7 @@ public static class SeedData
                 Price = 400500
             }
         });
+        
 
     }
 }
