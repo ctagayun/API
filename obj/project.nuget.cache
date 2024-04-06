@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eGh4QD86I8YxYa4iAZmbXO1jUDU9PPV1ScQtY+xKfMX47uXASQI8KQjNy/TNrX0kfLnA2kUra5GseU+S3UucOQ==",
+  "dgSpecHash": "//qf/fDgtw+y5Ui5TReTR4OIxhOzatETFaq808NwUhtunC80EwD7FCXfk4ns0T1RDhwXuae2t/l5aEtLUyIv6A==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-14-react-build-e2e-spa-react-displaying-adding-data-in-bid-component\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-15-react-build-e2e-spa-react-api-react-deployment\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
