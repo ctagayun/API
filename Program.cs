@@ -29,16 +29,17 @@ if (app.Environment.IsDevelopment())
 {
      //Swagger is only added when we are in DEV environment
     app.UseSwagger();  //this creates standard definition of our API in JSON format
-    app.UseSwaggerUI(); //this transforms JSON into a UI
+    app.UseSwaggerUI(); //this transforms JSON into a UI. will continue to work with cookiehosting
+    app.UseStaticFiles(); //cookiehosting - will enable app to serve contents in wwwwroot
 }
 
-//Allow api port 4000 to call port 3000 where the react app is running
-app.UseCors(p => p.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod().AllowCredentials());
+//Allow api port 4000 to call port 3000 where the react app is running - ge trid because we are now calling cross-site: cookie hosting
+//app.UseCors(p => p.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod().AllowCredentials());
 
-app.MapHouseEndpoints(); //simply call the extension method which contains the HTTP calls
-app.MapBidEndpoints();   //Simply call the extension method which contains the HTTP calls
-
+app.MapHouseEndpoints(); //simply call the extension method which contains the HTTP calls.will continue to work with cookiehosting
+app.MapBidEndpoints();   //Simply call the extension method which contains the HTTP calls. will continue to work with cookiehosting
 app.UseHttpsRedirection();
+app.MapFallbackToFile("index.html"); //cookiehosting before we call run we tell her to fallback to index.html if there's no endpoint match
 
 app.Run();  //Finally the app is commanded to run and then we will 
             //an active endpoint.    
