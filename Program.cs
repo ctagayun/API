@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MiniValidation;
@@ -11,7 +12,20 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();  //this enable swagger to scan for all endpoints
                          //Swagger middleware writes documentation
-builder.Services.AddCors();
+//builder.Services.AddCors(); implCookie
+
+//implCookie
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(o => 
+    {
+        o.Cookie.Name = "__Host-spa";
+        o.Cookie.SameSite = SameSiteMode.Strict; 
+        o.Events.OnRedirectToLogin = (context) =>
+        {
+            context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return Task.CompletedTask;
+        };
+    });
 
 //Now let register the DbContext in the DI container. I am turning off 
 //tracking because it is more efficient and performant because we are 
@@ -31,6 +45,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();  //this creates standard definition of our API in JSON format
     app.UseSwaggerUI(); //this transforms JSON into a UI. will continue to work with cookiehosting
     app.UseStaticFiles(); //cookiehosting - will enable app to serve contents in wwwwroot
+    app.UseAuthentication(); //implCookie - activates authentication. call it before endpoint declarations 
 }
 
 //Allow api port 4000 to call port 3000 where the react app is running - ge trid because we are now calling cross-site: cookie hosting
@@ -38,7 +53,10 @@ if (app.Environment.IsDevelopment())
 
 app.MapHouseEndpoints(); //simply call the extension method which contains the HTTP calls.will continue to work with cookiehosting
 app.MapBidEndpoints();   //Simply call the extension method which contains the HTTP calls. will continue to work with cookiehosting
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+app.UseRouting();  //cookiehosting 
+//app.UseAuthorization();//cookiehosting 
+//app.MapDefaultControllerRoute(); //cookiehosting 
 app.MapFallbackToFile("index.html"); //cookiehosting before we call run we tell her to fallback to index.html if there's no endpoint match
 
 app.Run();  //Finally the app is commanded to run and then we will 

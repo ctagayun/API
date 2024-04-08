@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MiniValidation;
 
@@ -25,10 +26,10 @@ public static class WebApplicationHouseExtensions
         //  dbContext.Houses.Select(h => new HouseDto(h.Id, h.Address, //Convert house entity in to a record format for React to consume
         //                          h.Country, h.Price)));
 
-        app.MapGet("/houses", (IHouseRepository repo) => repo.GetAll())
+        app.MapGet("/houses", [Authorize](IHouseRepository repo) => repo.GetAll())
             .Produces<HouseDto[]>(StatusCodes.Status200OK);
             
-        app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repo) => 
+        app.MapGet("/house/{houseId:int}", [Authorize] async (int houseId, IHouseRepository repo) => 
         {
             //now we can just get the house DTO by calling a new method in the repo
             var house = await repo.Get(houseId);
@@ -49,7 +50,7 @@ public static class WebApplicationHouseExtensions
         //
         //Here we are letting the API know that it has to look for the Dto in
         //the body of the request
-        app.MapPost("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
+        app.MapPost("/houses", [Authorize] async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
         {
             if(!MiniValidator.TryValidate(dto, out var errors)) //vald
             return Results.ValidationProblem(errors);
@@ -68,7 +69,7 @@ public static class WebApplicationHouseExtensions
             } ).Produces<HouseDetailDto>(StatusCodes.Status201Created) //This lets Swagger know that this method could produce a 201
             .ProducesValidationProblem(); //vald
 
-        app.MapPut("/houses", async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
+        app.MapPut("/houses", [Authorize] async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
         {
             if(!MiniValidator.TryValidate(dto, out var errors)) //vald
                 return Results.ValidationProblem(errors);
@@ -90,7 +91,7 @@ public static class WebApplicationHouseExtensions
         } ).ProducesProblem(404).Produces<HouseDetailDto>(StatusCodes.Status200OK) //This lets Swagger know that this method could produce a 200
             .ProducesValidationProblem(); //vald
 
-        app.MapDelete("/houses/{houseId:int}", async (int houseId, IHouseRepository repo) => 
+        app.MapDelete("/houses/{houseId:int}", [Authorize] async (int houseId, IHouseRepository repo) => 
         {
             //the repo has to instructed to delete the house to the database
             //now we can just add by calling the "Delete" method of the repo.

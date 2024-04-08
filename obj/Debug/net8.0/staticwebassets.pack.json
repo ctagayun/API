@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\wwwroot\\assets\\GloboLogo-CuZ7u1Sj.png",
+      "PackagePath": "staticwebassets\\assets\\GloboLogo-CuZ7u1Sj.png"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\wwwroot\\assets\\index-Dee1sRAh.css",
+      "PackagePath": "staticwebassets\\assets\\index-Dee1sRAh.css"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\wwwroot\\assets\\index-s25oXZQF.js",
+      "PackagePath": "staticwebassets\\assets\\index-s25oXZQF.js"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
