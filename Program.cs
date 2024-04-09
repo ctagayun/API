@@ -28,7 +28,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
       };
     });
 
-//implCookie
+//implCookie - this declares the policy of "admin"
 builder.Services.AddAuthorization(o =>
     o.AddPolicy("admin", p => p.RequireClaim("role", "Admin"))
 );
@@ -44,6 +44,9 @@ builder.Services.AddScoped<IBidRepository, BidRepository>(); //added for bidder 
 builder.Services.AddScoped<IUserRepository, UserRepository>(); //implCookie
 
 var app = builder.Build();
+/*
+   Application Middleware
+*/
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

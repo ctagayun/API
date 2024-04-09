@@ -49,7 +49,7 @@ namespace ConfArch.Web.Controllers
             //When I have the list of "claims" I can create a claims identity
             //object. passing it in and specify the scheme name.
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-        
+
             //The identity is used to create a ClaimsPrincipal
             var principal = new ClaimsPrincipal(identity);
 
@@ -78,7 +78,7 @@ namespace ConfArch.Web.Controllers
 
         //Logout GetUser will return the serialized claims. It has the authorize  
         //attribute which means a requet to this endpoint must have a valid
-        //session cookie.
+        //session cookie. It returns a srialized claim
         [Authorize]
         public IActionResult GetUser()
         {
