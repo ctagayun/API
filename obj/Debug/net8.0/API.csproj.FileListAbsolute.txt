@@ -1474,3 +1474,14 @@ C:\_AMyReactDev\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\
 C:\_AMyReactDev\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\API\obj\Debug\net8.0\API.pdb
 C:\_AMyReactDev\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\_AMyReactDev\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\API\obj\Debug\net8.0\ref\API.dll
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.sourcelink.json
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.dll
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\refint\API.dll
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.pdb
