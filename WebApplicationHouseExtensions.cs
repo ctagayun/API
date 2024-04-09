@@ -49,8 +49,10 @@ public static class WebApplicationHouseExtensions
         //      2. the second parameter is IHouseRpository
         //
         //Here we are letting the API know that it has to look for the Dto in
-        //the body of the request
-        app.MapPost("/houses", [Authorize] async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
+        //the body of the request.
+        //"admin" refers to an authorization policy in program.cs.
+        //see builder.Services.AddAuthorization in program.cs
+        app.MapPost("/houses", [Authorize("admin")] async ([FromBody]HouseDetailDto dto, IHouseRepository repo) => 
         {
             if(!MiniValidator.TryValidate(dto, out var errors)) //vald
             return Results.ValidationProblem(errors);

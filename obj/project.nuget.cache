@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "As1C6jsmao1y1XYB54RMPX85aIxt1aNG4v/ojK6jlhL4AQ/ozSDOKu10em3wKhIcc+IG4+e+mYNz811hCkGzKg==",
+  "dgSpecHash": "iVDPeRPqcXJlSMn4j12qFUNlk30ZQIf6VhFxVj22PcknzjwUAFbllzU1Wpo6dKF4s8Df0XNpUqeZ2iLJ7k9Blg==",
   "success": true,
-  "projectFilePath": "C:\\_AMyReactDev\\chito-17-react-build-e2e-spa-react-api-implementing-cookie-auth\\API\\API.csproj",
+  "projectFilePath": "C:\\_AMyReactDev\\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
