@@ -1485,3 +1485,5 @@ C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-aut
 C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.dll
 C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\refint\API.dll
 C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.pdb
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.RazorAssemblyInfo.cache
+C:\_AMyReactDev\chito-18-react-build-e2e-spa-react-react-implementing-cookie-auth\API\obj\Debug\net8.0\API.RazorAssemblyInfo.cs
