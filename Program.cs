@@ -43,7 +43,10 @@ builder.Services.AddScoped<IHouseRepository, HouseRepository>();
 builder.Services.AddScoped<IBidRepository, BidRepository>(); //added for bidder stuff
 builder.Services.AddScoped<IUserRepository, UserRepository>(); //implCookie
 
+//Now run the WebApplication.CreateBuilder which configures HTTP pipeline and routes and
+//initializes an instance of the WebApplicationBuilder class with configured defaults
 var app = builder.Build();
+
 /*
    Application Middleware
 */
@@ -66,7 +69,7 @@ app.MapBidEndpoints();   //Simply call the extension method which contains the H
 //app.UseHttpsRedirection();
 app.UseRouting();  //cookiehosting 
 app.UseAuthorization();//implCookie 
-//app.MapDefaultControllerRoute(); //cookiehosting 
+app.MapDefaultControllerRoute(); //cookiehosting 
 app.MapFallbackToFile("index.html"); //cookiehosting before we call run we tell her to fallback to index.html if there's no endpoint match
 
 app.Run();  //Finally the app is commanded to run and then we will 
