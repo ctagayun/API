@@ -1,0 +1,83 @@
+{
+  "Files": [
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\assets\\GloboLogo-CuZ7u1Sj.png",
+      "PackagePath": "staticwebassets\\assets\\GloboLogo-CuZ7u1Sj.png"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\assets\\index-Dee1sRAh.css",
+      "PackagePath": "staticwebassets\\assets\\index-Dee1sRAh.css"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\assets\\index-s25oXZQF.js",
+      "PackagePath": "staticwebassets\\assets\\index-s25oXZQF.js"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\vite.svg",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\GloboLogo-CuZ7u1Sj.png",
+      "PackagePath": "staticwebassets\\assets\\GloboLogo-CuZ7u1Sj.png"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\index-Dee1sRAh.css",
+      "PackagePath": "staticwebassets\\assets\\index-Dee1sRAh.css"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\index-Du3XX3Oq.js",
+      "PackagePath": "staticwebassets\\assets\\index-Du3XX3Oq.js"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\vite.svg",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

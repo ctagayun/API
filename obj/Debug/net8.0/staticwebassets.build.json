@@ -1,11 +1,274 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "bUm1vPqwZHJejLhtNIB7WgmMI8ngxypkYrDApg4MvgQ=",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "Hash": "7QdRJKYcK7RfZQlwXzs5CLd43BPaPr1nV2NyRWy9zmA=",
+=======
+  "Hash": "6wK80AvdHJbtuof+wHhiNzihJMzX0SGtxAMj/p8XaG0=",
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+  "Hash": "6wK80AvdHJbtuof+wHhiNzihJMzX0SGtxAMj/p8XaG0=",
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+>>>>>>> Stashed changes
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
+<<<<<<< Updated upstream
   "DiscoveryPatterns": [],
   "Assets": []
+=======
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\assets\\GloboLogo-CuZ7u1Sj.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\GloboLogo-CuZ7u1Sj.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "BasePath": "_content/API",
+      "RelativePath": "assets/GloboLogo-CuZ7u1Sj.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\GloboLogo-CuZ7u1Sj.png"
+    },
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\assets\\index-Dee1sRAh.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\index-Dee1sRAh.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-Dee1sRAh.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-Dee1sRAh.css"
+    },
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\assets\\index-s25oXZQF.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-s25oXZQF.js",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\index-Du3XX3Oq.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-Du3XX3Oq.js",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\assets\\index-s25oXZQF.js"
+    },
+    {
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\favicon.ico",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "OriginalItemSpec": "wwwroot\\assets\\index-Du3XX3Oq.js"
+    },
+    {
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\favicon.ico",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "BasePath": "_content/API",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\index.html",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\index.html",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "BasePath": "_content/API",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "BasePath": "_content/API",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\vite.svg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-16-react-build-e2e-spa-react-api-authentication-cookie-approach\\API\\wwwroot\\",
+=======
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\vite.svg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+<<<<<<< HEAD
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+=======
+>>>>>>> 46ebbdce979821508baae3ecf72186c5553905d9
+      "BasePath": "_content/API",
+      "RelativePath": "vite.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vite.svg"
+    }
+  ]
+>>>>>>> Stashed changes
 }
