@@ -1502,8 +1502,6 @@ C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-c
 C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\obj\Debug\net8.0\API.pdb
 C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\bin\Debug\net8.0\appsettings.Development.json
 C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\bin\Debug\net8.0\appsettings.json
-C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\bin\Debug\net8.0\package-lock.json
-C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\bin\Debug\net8.0\package.json
 C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\bin\Debug\net8.0\API.staticwebassets.runtime.json
 C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\bin\Debug\net8.0\API.exe
 C:\_AMyReactDev\rolandreactdev\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\API\bin\Debug\net8.0\API.deps.json
