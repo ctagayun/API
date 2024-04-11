@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6wK80AvdHJbtuof+wHhiNzihJMzX0SGtxAMj/p8XaG0=",
+  "Hash": "VOyiUvkvoobsu9JO2QIalZe+Gs93Hj9dceAs9CEBBpI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\GloboLogo-CuZ7u1Sj.png"
+    },
+    {
+      "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\index-DDKDL5jz.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-DDKDL5jz.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-DDKDL5jz.js"
     },
     {
       "Identity": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\wwwroot\\assets\\index-Dee1sRAh.css",

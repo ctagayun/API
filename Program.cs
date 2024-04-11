@@ -14,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();  //this enable swagger to scan for all endpoints
                                    //Swagger middleware writes documentation
                                    //builder.Services.AddCors(); implCookie
+builder.Services.AddControllersWithViews();
 
 //implCookie
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
