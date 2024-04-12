@@ -2997,11 +2997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\API.csproj",
+      "projectUniqueName": "C:\\_AMyReactDev\\rolandreactdev\\chito-17-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\API.csproj",
+      "projectPath": "C:\\_AMyReactDev\\rolandreactdev\\chito-17-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\API.csproj",
       "packagesPath": "C:\\Users\\tiger\\.nuget\\packages\\",
-      "outputPath": "C:\\_AMyReactDev\\rolandreactdev\\chito-18-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\obj\\",
+      "outputPath": "C:\\_AMyReactDev\\rolandreactdev\\chito-17-react-build-e2e-spa-react-created-from-chito-authcookie-branch\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
